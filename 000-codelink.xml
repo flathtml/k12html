@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <CODE>
+ <!--Ex: 4 -->
+   <EXAMPLE>
+    <LINK>&lt;a href="004-Clock.html"&gt;004-Clock.html&lt;a&gt;</LINK>
+    <CATEGORY>General Use</CATEGORY>
+	<DESC>Clock</DESC>
+  </EXAMPLE>
+ <!--Ex: 3 -->
+   <EXAMPLE>
+    <LINK>&lt;a href="003-Calculator.html"&gt;003-Calculator.html&lt;a&gt;</LINK>
+    <CATEGORY>Math</CATEGORY>
+	<DESC>Calculator</DESC>
+  </EXAMPLE>
+ <!--Ex: 2 -->
+   <EXAMPLE>
+    <LINK>&lt;a href="002-Sort.html"&gt;002-Sort.html&lt;a&gt;</LINK>
+    <CATEGORY>General</CATEGORY>
+	<DESC>Sort a Table</DESC>
+  </EXAMPLE>
+  <!--Ex: 1 -->
+   <EXAMPLE>
+    <LINK>&lt;a href="001-Calculate-Age.html"&gt;001-Calculate-Age.html&lt;a&gt;</LINK>
+    <CATEGORY>Math</CATEGORY>
+	<DESC>Calculate Age in Days</DESC>
+  </EXAMPLE>
+</CODE>
