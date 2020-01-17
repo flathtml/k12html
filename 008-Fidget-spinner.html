@@ -1,0 +1,136 @@
+<html>
+<style>
+body{background-color:blue;}
+
+@-webkit-keyframes spinnerRotate
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes spinnerRotate
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(360deg);}
+}
+@-ms-keyframes spinnerRotate
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(360deg);}
+}
+
+
+
+@-webkit-keyframes filter-animation {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  
+  50% {
+    -webkit-filter: hue-rotate(100deg);
+  }
+  
+  100% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+}
+
+@keyframes filter-animation {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  
+  50% {
+    filter: hue-rotate(100deg);
+  }
+  
+  100% {
+    filter: hue-rotate(0deg);
+  }
+}
+
+.fspin-wrapper{
+    width:530px;
+    height:530px;
+   -webkit-animation: filter-animation 12s infinite;
+  animation: filter-animation 2s infinite;
+    -webkit-transform: scale(0.5); 
+      -ms-transform: scale(0.5); 
+          transform: scale(0.5);  
+}
+#Fspin-mid{
+  z-index:1;
+  position:absolute;
+   width:530px;
+  height:530px;
+}
+#Fspin-wrap{
+  width:530px;
+  height:530px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    
+    /*
+    How to control the Fidget Spinner
+    
+    1. Decrease the animation-duration to increase
+    the speed of the spinner.
+    
+    2. Change the animation-iteration-count to
+    change the number of times the Fidget Spinner
+    rotates
+    */
+    
+    -webkit-animation-name: spinnerRotate;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 35;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spinnerRotate;
+    -moz-animation-duration: 0.1s;
+    -moz-animation-iteration-count: 35;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spinnerRotate;
+    -ms-animation-duration: 0.1s;
+    -ms-animation-iteration-count: 35;
+    -ms-animation-timing-function: linear;
+}
+
+
+  @keyframes cf3FadeInOut {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+img.top143 {
+position:absolute;
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 1s;
+animation-direction: alternate;
+}
+
+</style>
+<i>NOTE : The Fidget Spinner rotates 35 times and then stops. It is controlled by the code animation-iteration-count</i> 
+
+<div class="fspin-wrapper">
+
+ 
+<div id="Fspin-wrap">
+    <img class="top143" src="https://vapesocietysupplies.com/wp-content/uploads/2017/06/spinnercolors.png" />
+    <img src="https://vapesocietysupplies.com/wp-content/uploads/2017/06/spinner.png" />
+</div>
+
+</div>
+
+</html>

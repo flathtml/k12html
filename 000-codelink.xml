@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <CODE>
+  <!--Ex: 8 -->
+   <EXAMPLE>
+    <LINK>&lt;a href="008-Fidget-spinner.html"&gt;008-Fideget-spinner.html&lt;a&gt;</LINK>
+    <CATEGORY>Game</CATEGORY>
+	<DESC>Fidget Spinner with Code</DESC>
+  </EXAMPLE>
+  <!--Ex: 7 -->
+   <EXAMPLE>
+    <LINK>&lt;a href="007-Fidget-spinner-code.html"&gt;007-Fideget-spinner-code.html&lt;a&gt;</LINK>
+    <CATEGORY>Game</CATEGORY>
+	<DESC>Fidget Spinner</DESC>
+  </EXAMPLE>
  <!--Ex: 6 -->
    <EXAMPLE>
     <LINK>&lt;a href="006-Rock-Paper-Scissors.html"&gt;006-Rock-Paper-Scissors.html&lt;a&gt;</LINK>
