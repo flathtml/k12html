@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <CODE>
+  <!--Ex: 10 -->
+   <EXAMPLE>
+    <LINK>&lt;a href="009-Art-pattern.html"&gt;009-Art-pattern.html&lt;a&gt;</LINK>
+    <CATEGORY>Geometry</CATEGORY>
+	<DESC>Bouncy Ball</DESC>
+  </EXAMPLE>
  <!--Ex: 9 -->
    <EXAMPLE>
     <LINK>&lt;a href="009-Art-pattern.html"&gt;009-Art-pattern.html&lt;a&gt;</LINK>
